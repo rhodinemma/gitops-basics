@@ -1,7 +1,6 @@
 node {
     def app
-    def docker = Docker.fromEnv()
-
+    
     stage('Clone repository') {
       
 
